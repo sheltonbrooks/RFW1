@@ -1,0 +1,92 @@
+.simple-slider .swiper-slide {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    height: 360px;
+  }
+}
+
+#sec {
+  margin-top: 65px;
+}
+
+.h1, h1 {
+}
+
+#index .h1, h1 {
+  text-align: center;
+  padding: 10px;
+  color: #000000;
+}
+
+.h2, h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#ccapdiv .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+  color: #212529;
+}
+
+@media (min-width: 992px) {
+  #ccapdiv {
+    padding: 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  #ccapdiv .jumbotron {
+    padding: 20px;
+  }
+}
+
+#seccao-3 {
+  background-color: #fff;
+}
+
+#shcolor {
+  color: #000;
+}
+
+#gold .btn-primary:hover {
+  color: #d4af37;
+  background-color: #d4af37;
+  border-color: #d4af37;
+}
+
+#gold .btn-primary.focus, .btn-primary:focus {
+  color: #d4af37;
+  background-color: #d4af37;
+  border-color: #d4af37;
+  box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+}
+
+#footerc .bg-info {
+  background-color: #fff;
+}
+
